@@ -42,7 +42,7 @@ sklearn.cluster, sentence_transformers (sbert), flask, pandas, numpy 1.26.1, dil
 1. Start MongoDB, and import the sample data (optional)
 2. Start the Server_API with `dotnet run`
 3. Start Server_ML_Models with `python3 app.py`
-4. Start the android app (preferably with android studio)
+4. Start the android app (preferably with Android Studio)
 
 
 

@@ -1,0 +1,20 @@
+*.iml
+Android App/.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/.vs
+/.idea/vcs.xml
+Server_API/Server_API/bin
+Server_API/Server_API/obj
+Server_API/.vs

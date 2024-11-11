@@ -1,5 +1,5 @@
 ![תמונה](https://github.com/user-attachments/assets/3ee4a530-ad48-45c1-831c-9b9d87a85aaa)
-CouponVerse is the complete android app solution for all your coupons needs. 
+CouponVerse is the complete android app solution for all your coupons needs.  
 Co-Created with Dor Sror 
 
 ##Features

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:id="@+id/editTextMinStars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Min Stars"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextMaxStars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Max Stars"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextMinPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Min Price"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextMaxPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Max Price"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnFilterApply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply Filter"
+        android:backgroundTint="#4CAF50"/>
+
+</LinearLayout>

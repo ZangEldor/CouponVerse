@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/edit_coupon"
+        android:title="@string/edit_coupon" />
+    <item
+        android:id="@+id/delete_coupon"
+        android:title="@string/delete_coupon" />
+</menu>

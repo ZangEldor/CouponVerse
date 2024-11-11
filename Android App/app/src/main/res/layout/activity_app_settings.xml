@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/user_settings_header"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/user_settings_header"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="start"/>
+
+        <EditText
+            android:id="@+id/username_edit"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:layout_marginBottom="8dp"
+            android:gravity="start"/>
+
+
+        <ImageView
+            android:id="@+id/picture_view"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/user_picture"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="selectImage"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/update_user_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_user"
+            android:layout_marginBottom="20dp"
+            android:onClick="updateUser"
+            android:gravity="center"
+            android:backgroundTint="#2196F3"/>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="384dp"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/app_settings_header"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_settings"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="start"/>
+
+        <Switch
+            android:id="@+id/notifications_switch"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/enable_notifications"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="start"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <EditText
+            android:id="@+id/server_url_edit"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/server_url_default_hint"
+            android:layout_marginBottom="0dp"
+            android:gravity="start"/>
+
+        <TextView
+            android:id="@+id/server_url_warning"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="@string/server_url_change_warning"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="start"/>
+
+        <Button
+            android:id="@+id/update_app_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_app_button"
+            android:layout_marginBottom="32dp"
+            android:onClick="updateApp"
+            android:gravity="center"
+            android:backgroundTint="#2196F3"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginBottom="20dp"
+            android:onClick="logout"
+            android:backgroundTint="#F44336" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

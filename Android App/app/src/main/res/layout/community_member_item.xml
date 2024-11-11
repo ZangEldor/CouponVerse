@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="7dp"
+    android:background="@drawable/coupon_background">
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="179dp"
+        android:layout_height="32dp"
+        android:text="@string/default_user"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="center" />
+
+    <CheckBox
+        android:id="@+id/is_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:text="@string/admin" />
+
+    <CheckBox
+        android:id="@+id/to_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:text="@string/remove" />
+
+</LinearLayout>

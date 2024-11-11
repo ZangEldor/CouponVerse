@@ -28,6 +28,7 @@ There are 3 KMeans models with varying numbers of centers: kmeans150.pkl, kmeans
 The more centers the model has, the more accuracy the recommendations are. However, there will be less recommendations given.  
 For example, kmeans6500 can be used to provide highly accurate recommendations but will yield fewer than 200 recommendations, whereas kmeans150 is much less accurate but will provide over 10,000 recommendations.  
 Each model can be used separately to give more (or less) precise recommendations or can be used in tandem to show more precise recommendations first, followed by less accurate ones.
+![תמונה](https://github.com/user-attachments/assets/0262c674-197b-404f-90ef-862c62dfb8f7)
 
 ## Dependencies
 ### ASP.Net Server  

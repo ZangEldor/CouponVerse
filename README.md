@@ -1,8 +1,12 @@
-# CouponVerse
 ![תמונה](https://github.com/user-attachments/assets/3ee4a530-ad48-45c1-831c-9b9d87a85aaa)
-
+CouponVerse, is a complete solution to all your coupons needs.
+##Features
+- Products Recommendation ML Model (trained from scratch)
+- Coupons AI text analyzer
+- Online groups and chats
+- Coupons Organizer
 ## Architecture 
-FRONTEND: Kotlin 
+FRONTEND: Kotlin (Android)
 
 BACKEND: ASP.NET (C#) & Flask (Python) 
 

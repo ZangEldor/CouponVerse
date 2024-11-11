@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "66e8844e271817d1e5d50d9b"
+  },
+  "name": "Secret Coupons_1",
+  "admins": [
+    "davidjones"
+  ],
+  "users": [
+    "cpaul",
+    "cathy65",
+    "davidjones"
+  ],
+  "messages": [
+    {
+      "sender": "davidjones",
+      "data": "Is this Best Buy coupon still valid for $20 off?",
+      "timestamp_string": "2024-06-25"
+    },
+    {
+      "sender": "davidjones",
+      "data": "Just used my Best Buy coupon for $10 cashback. It worked!",
+      "timestamp_string": "2024-07-28"
+    },
+    {
+      "sender": "cpaul",
+      "data": "Planning to use this eBay coupon soon, it's 50% off.",
+      "timestamp_string": "2024-08-02"
+    },
+    {
+      "sender": "davidjones",
+      "data": "Got a 10% off off at eBay, anyone else tried this?",
+      "timestamp_string": "2024-08-08"
+    },
+    {
+      "sender": "cpaul",
+      "data": "Just used my Target coupon for 10% off. It worked!",
+      "timestamp_string": "2024-08-12"
+    },
+    {
+      "sender": "cpaul",
+      "data": "Shared a Target coupon for 50% off earlier, did anyone try?",
+      "timestamp_string": "2024-08-12"
+    },
+    {
+      "sender": "davidjones",
+      "data": "Is this Target coupon still valid for 15% off?",
+      "timestamp_string": "2024-08-15"
+    },
+    {
+      "sender": "davidjones",
+      "data": "I need a good Target coupon for 15% off.",
+      "timestamp_string": "2024-10-10"
+    },
+    {
+      "sender": "cpaul",
+      "data": "I need a good Walmart coupon for 50% off.",
+      "timestamp_string": "2024-11-02"
+    },
+    {
+      "sender": "cathy65",
+      "data": "Does anyone have a valid coupon code for Groupon?",
+      "timestamp_string": "2024-12-04"
+    }
+  ],
+  "picture": ""
+},
+{
+  "_id": {
+    "$oid": "66e88490271817d1e5d50d9c"
+  },
+  "name": "Secret Coupons_2",
+  "admins": [
+    "cathy65",
+    "stephen25"
+  ],
+  "users": [
+    "danielanderson",
+    "wendylane",
+    "cathy65",
+    "stephen25"
+  ],
+  "messages": [
+    {
+      "sender": "danielanderson",
+      "data": "I found a Groupon coupon for $20 off, sharing it here.",
+      "timestamp_string": "2024-06-19"
+    },
+    {
+      "sender": "stephen25",
+      "data": "Best coupon I've found so far is $20 off at Best Buy.",
+      "timestamp_string": "2024-06-23"
+    },
+    {
+      "sender": "cathy65",
+      "data": "Redeemed my $10 cashback off at Amazon, such a great deal!",
+      "timestamp_string": "2024-07-18"
+    },
+    {
+      "sender": "stephen25",
+      "data": "Does anyone have a valid coupon code for Groupon?",
+      "timestamp_string": "2024-09-03"
+    },
+    {
+      "sender": "cathy65",
+      "data": "I need a good Groupon coupon for Buy one, get one free.",
+      "timestamp_string": "2024-09-24"
+    },
+    {
+      "sender": "wendylane",
+      "data": "I need a good Target coupon for $10 cashback.",
+      "timestamp_string": "2024-10-31"
+    },
+    {
+      "sender": "danielanderson",
+      "data": "Does anyone have a valid coupon code for Amazon?",
+      "timestamp_string": "2024-11-13"
+    },
+    {
+      "sender": "cathy65",
+      "data": "I found a Groupon coupon for 50% off, sharing it here.",
+      "timestamp_string": "2024-11-19"
+    },
+    {
+      "sender": "stephen25",
+      "data": "Shared a Groupon coupon for 50% off earlier, did anyone try?",
+      "timestamp_string": "2024-11-24"
+    },
+    {
+      "sender": "stephen25",
+      "data": "I found a Groupon coupon for $10 cashback, sharing it here.",
+      "timestamp_string": "2024-12-12"
+    }
+  ],
+  "picture": ""
+}]

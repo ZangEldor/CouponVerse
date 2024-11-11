@@ -1,5 +1,7 @@
 ![תמונה](https://github.com/user-attachments/assets/3ee4a530-ad48-45c1-831c-9b9d87a85aaa)
-CouponVerse, is a complete solution to all your coupons needs.
+CouponVerse is the complete android app solution for all your coupons needs. 
+Co-Created with Dor Sror 
+
 ##Features
 - Products Recommendation ML Model (trained from scratch)
 - Coupons AI text analyzer
@@ -26,12 +28,7 @@ MongoDB.Driver (MongoDB integration)  ,Mscc.GenerativeAI (Google Gemini AI integ
 ### Android App 
 Glide,Gson,kotlinx-coroutines,okhttp,,retrofit2
 ### Python
-sklearn.cluster,
-sentence_transformers (sbert),
-flask,
-pandas,
-numpy 1.26.1,
-dill (import/export model files) 
+sklearn.cluster, sentence_transformers (sbert), flask, pandas, numpy 1.26.1, dill
 
 
 
